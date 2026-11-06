@@ -1,0 +1,30 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+
+body {
+  background-image:url("quadrangle-isles-website-bg.png");
+  color: black;
+  font-family "OCR A Std", monospace;
+  display: grid;
+  place-items: center; /* Centers both horizontally and vertically */
+  height: 100vh;       /* Makes the body take up the full screen height */
+  margin: 0;           /* Removes default browser margins */
+
+}
+
+a {
+  border: 3px solid #000000;
+  padding: 5px 10px;
+  background-color: rgba(20, 201, 90, 0.6);
+  text-decoration: none;
+  color: white;
+}
+
+  
+
+.centered-box {
+  border: 3px solid #000000;
+  padding: 20px 40px;
+  background-color: rgba(20, 201, 90, 0.6);
+}
