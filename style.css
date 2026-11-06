@@ -5,7 +5,7 @@
 body {
   background-image:url("quadrangle-isles-website-bg.png");
   color: black;
-  font-family "OCR A Std", monospace;
+  font-family: "OCR A Std", monospace;
   display: grid;
   place-items: center; /* Centers both horizontally and vertically */
   height: 100vh;       /* Makes the body take up the full screen height */
