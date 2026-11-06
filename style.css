@@ -56,3 +56,10 @@ a {
   background-color: #04AA6D;
   color: white;
 }
+
+.page {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: auto; /* Header, content, footer */
+  gap: 7px;
+}
